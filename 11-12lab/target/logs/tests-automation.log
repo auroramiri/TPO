@@ -1,0 +1,25 @@
+2024-05-18 12:01:09,337 INFO  {main} 11-12lab-----START TESTS
+2024-05-18 12:01:13,121 INFO  {main} CheckSortingUsersByFirstNameField---START
+2024-05-18 12:01:14,975 INFO  {main} CheckSortingUsersByFirstNameField---Success
+2024-05-18 12:01:18,684 INFO  {main} CheckSortingUsersByLastNameField---START
+2024-05-18 12:01:20,488 INFO  {main} CheckSortingUsersByLastNameField---Success
+2024-05-18 12:01:22,523 INFO  {main} CheckingUserSearchByFirstName---START
+2024-05-18 12:01:24,296 INFO  {main} CheckingUserSearchByFirstName---Success
+2024-05-18 12:01:26,260 INFO  {main} CheckingUserSearchByFullName---START
+2024-05-18 12:01:38,323 INFO  {main} CheckingUserSearchByFullName---Success
+2024-05-18 12:01:40,652 INFO  {main} CheckingUserSearchByLastName---START
+2024-05-18 12:01:42,415 INFO  {main} CheckingUserSearchByLastName---Success
+2024-05-18 12:01:44,672 INFO  {main} CheckingUserSearchByPostCode---START
+2024-05-18 12:01:46,477 INFO  {main} CheckingUserSearchByPostCode---Success
+2024-05-18 12:01:48,920 INFO  {main} GetLessMoneyThanAllowedFromBankAccount---START
+2024-05-18 12:01:51,537 INFO  {main} GetLessMoneyThanAllowedFromBankAccount---Success
+2024-05-18 12:01:54,176 INFO  {main} GetMoreMoneyThanAllowedFromBankAccount---START
+2024-05-18 12:01:57,260 INFO  {main} GetMoreMoneyThanAllowedFromBankAccount---Success
+2024-05-18 12:01:59,947 INFO  {main} OpenNewBankAccount---START
+2024-05-18 12:02:04,035 INFO  {main} OpenNewBankAccount---Success
+2024-05-18 12:02:07,076 INFO  {main} OpenTwoNewBankAccounts---START
+2024-05-18 12:02:10,989 INFO  {main} OpenTwoNewBankAccounts---Success
+2024-05-18 12:02:11,181 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-18 12:02:11,181 INFO  {main} ----------------------------------------------
+2024-05-18 12:02:11,181 INFO  {main}  
+2024-05-18 12:02:11,181 INFO  {main} ----------------------------------------------
