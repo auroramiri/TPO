@@ -1,19 +1,20 @@
 package page;
 
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import util.AccountCurrency;
 import model.User;
-import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import util.StringHolder;
 
+import java.time.Duration;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class SeleniumHQBankManagerPage extends  AbstractPage{
 
+    private final By newCustomerButtonLocator = new By.ByXPath("/html/body/div/div/div[2]/div/div[1]/button[1]");
     private final By openAccountMenuButtonLocator = new By.ByXPath("/html/body/div/div/div[2]/div/div[1]/button[2]");
     private final By customersMenuButtonLocator = new By.ByXPath("/html/body/div/div/div[2]/div/div[1]/button[3]");
     private final By selectUserButtonLocator = new By.ByXPath("//*[@id='userSelect']");
@@ -26,6 +27,12 @@ public class SeleniumHQBankManagerPage extends  AbstractPage{
     private final By lastNameButtonLocator = new By.ByXPath("/html/body/div/div/div[2]/div/div[2]/div/div/table/thead/tr/td[2]/a");
 
     private final By searchLineInputCustomersLocator = new By.ByXPath("/html/body/div/div/div[2]/div/div[2]/div/form/div/div/input");
+
+    private final By firstNameInputCustomersLocator = new By.ByXPath("/html/body/div/div/div[2]/div/div[2]/div/div/form/div[1]/input");
+    private final By lastNameInputCustomersLocator = new By.ByXPath("/html/body/div/div/div[2]/div/div[2]/div/div/form/div[2]/input");
+    private final By postCodeInputCustomersLocator = new By.ByXPath("/html/body/div/div/div[2]/div/div[2]/div/div/form/div[3]/input");
+    private final By addCustomerButtonLocator = new By.ByXPath("/html/body/div/div/div[2]/div/div[2]/div/div/form/button");
+
 
 
     public SeleniumHQBankManagerPage(WebDriver driver){
@@ -49,6 +56,31 @@ public class SeleniumHQBankManagerPage extends  AbstractPage{
     public SeleniumHQBankManagerPage InputSearchLine(String inputString){
         WebElement searchLineInputCustomers = WaitForElementLocatedBy(searchLineInputCustomersLocator);
         searchLineInputCustomers.sendKeys(inputString);
+        return this;
+    }
+
+    public SeleniumHQBankManagerPage InputNewFirstNameLine(String inputString){
+        WebElement InputNewFirstNameCustomer = WaitForElementLocatedBy(firstNameInputCustomersLocator);
+        InputNewFirstNameCustomer.sendKeys(inputString);
+        return this;
+    }
+
+    public SeleniumHQBankManagerPage InputNewLastNameLine(String inputString){
+        WebElement InputNewLastNameCustomer = WaitForElementLocatedBy(lastNameInputCustomersLocator);
+        InputNewLastNameCustomer.sendKeys(inputString);
+        return this;
+    }
+
+    public SeleniumHQBankManagerPage InputNewPostCodeNameLine(String inputString){
+        WebElement InputNewPostCodeCustomer = WaitForElementLocatedBy(postCodeInputCustomersLocator);
+        InputNewPostCodeCustomer.sendKeys(inputString);
+        return this;
+    }
+
+    public SeleniumHQBankManagerPage AddNewCustomerButton(){
+
+        WebElement addCustomerButtonButton = WaitForElementLocatedBy(newCustomerButtonLocator);
+        addCustomerButtonButton.click();
         return this;
     }
 
@@ -86,6 +118,24 @@ public class SeleniumHQBankManagerPage extends  AbstractPage{
         }
         return this;
     }
+
+    public SeleniumHQBankManagerPage MemorizeIdCustomerFromAlertWindow(StringHolder newCustomerId){
+        try {
+            // Ожидание появления alert
+            new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.alertIsPresent());
+
+            Alert alert = driver.switchTo().alert();
+            Pattern pattern = Pattern.compile(":([0-9]+)");
+            Matcher matcher = pattern.matcher(alert.getText());
+            if (matcher.find()) {
+                newCustomerId.setValue(matcher.group(1));
+            }
+        } catch (NoAlertPresentException e) {
+            // Обработка исключения, если alert не появился
+        }
+        return this;
+    }
+
 
     public SeleniumHQBankManagerPage MemorizeFirstNameByList(StringHolder FirstName){
         WebElement firstNameByTable = WaitForElementLocatedBy(firstNameByTableLocator);
@@ -135,6 +185,12 @@ public class SeleniumHQBankManagerPage extends  AbstractPage{
     public SeleniumHQBankManagerPage SubmitLastNameButton(){
         WebElement firstNameButton = WaitForElementLocatedBy(lastNameButtonLocator);
         firstNameButton.click();
+        return this;
+    }
+
+    public SeleniumHQBankManagerPage SubmitAddNewCustomerButton(){
+        WebElement newCustomerButton = WaitForElementLocatedBy(addCustomerButtonLocator);
+        newCustomerButton.click();
         return this;
     }
 

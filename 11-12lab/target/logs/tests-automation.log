@@ -23,3 +23,268 @@
 2024-05-18 12:02:11,181 INFO  {main} ----------------------------------------------
 2024-05-18 12:02:11,181 INFO  {main}  
 2024-05-18 12:02:11,181 INFO  {main} ----------------------------------------------
+2024-05-18 13:42:00,134 INFO  {main} 11-12lab-----START TESTS
+2024-05-18 13:42:03,668 INFO  {main} CheckSortingUsersByFirstNameField---START
+2024-05-18 13:42:05,551 INFO  {main} CheckSortingUsersByFirstNameField---Success
+2024-05-18 13:42:09,918 INFO  {main} CheckSortingUsersByLastNameField---START
+2024-05-18 13:42:12,303 INFO  {main} CheckSortingUsersByLastNameField---Success
+2024-05-18 13:42:16,507 INFO  {main} CheckingUserSearchByFirstName---START
+2024-05-18 13:42:18,349 INFO  {main} CheckingUserSearchByFirstName---Success
+2024-05-18 13:42:21,506 INFO  {main} CheckingUserSearchByFullName---START
+2024-05-18 13:42:31,804 INFO  {main} CheckingUserSearchByFullName---Failure
+2024-05-18 13:42:34,690 INFO  {main} CheckingUserSearchByLastName---START
+2024-05-18 13:42:44,982 INFO  {main} CheckingUserSearchByLastName---Failure
+2024-05-18 13:42:47,228 INFO  {main} CheckingUserSearchByPostCode---START
+2024-05-29 17:05:56,449 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:05:59,909 INFO  {main} AddNewCustomer---START
+2024-05-29 17:06:11,370 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:06:15,853 INFO  {main} CheckingUserSearchByPostCode---START
+2024-05-29 17:06:18,159 INFO  {main} CheckingUserSearchByPostCode---Success
+2024-05-29 17:06:22,148 INFO  {main} GetLessMoneyThanAllowedFromBankAccount---START
+2024-05-29 17:06:25,226 INFO  {main} GetLessMoneyThanAllowedFromBankAccount---Success
+2024-05-29 17:06:28,165 INFO  {main} GetMoreMoneyThanAllowedFromBankAccount---START
+2024-05-29 17:06:31,253 INFO  {main} GetMoreMoneyThanAllowedFromBankAccount---Success
+2024-05-29 17:06:34,204 INFO  {main} OpenNewBankAccount---START
+2024-05-29 17:06:38,788 INFO  {main} OpenNewBankAccount---Success
+2024-05-29 17:06:38,923 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 17:06:38,923 INFO  {main} ----------------------------------------------
+2024-05-29 17:06:38,923 INFO  {main}  
+2024-05-29 17:06:38,923 INFO  {main} ----------------------------------------------
+2024-05-29 17:08:38,594 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:08:41,780 INFO  {main} AddNewCustomer---START
+2024-05-29 17:08:53,214 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:08:55,734 INFO  {main} CheckingUserSearchByPostCode---START
+2024-05-29 17:10:01,677 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:10:04,426 INFO  {main} AddNewCustomer---START
+2024-05-29 17:10:24,045 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:10:26,690 INFO  {main} AddNewCustomer---START
+2024-05-29 17:10:33,305 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:10:36,106 INFO  {main} CheckingUserSearchByPostCode---START
+2024-05-29 17:10:38,383 INFO  {main} CheckingUserSearchByPostCode---Success
+2024-05-29 17:10:40,969 INFO  {main} GetLessMoneyThanAllowedFromBankAccount---START
+2024-05-29 17:10:43,554 INFO  {main} GetLessMoneyThanAllowedFromBankAccount---Success
+2024-05-29 17:10:46,050 INFO  {main} GetMoreMoneyThanAllowedFromBankAccount---START
+2024-05-29 17:10:49,136 INFO  {main} GetMoreMoneyThanAllowedFromBankAccount---Success
+2024-05-29 17:10:51,223 INFO  {main} OpenNewBankAccount---START
+2024-05-29 17:10:55,296 INFO  {main} OpenNewBankAccount---Success
+2024-05-29 17:10:55,430 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 17:10:55,430 INFO  {main} ----------------------------------------------
+2024-05-29 17:10:55,430 INFO  {main}  
+2024-05-29 17:10:55,430 INFO  {main} ----------------------------------------------
+2024-05-29 17:12:21,282 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:12:24,404 INFO  {main} AddNewCustomer---START
+2024-05-29 17:12:33,078 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:12:35,533 INFO  {main} CheckingUserSearchByPostCode---START
+2024-05-29 17:13:54,693 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:14:00,078 INFO  {main} AddNewCustomer---START
+2024-05-29 17:14:06,187 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:14:08,641 INFO  {main} CheckingUserSearchByPostCode---START
+2024-05-29 17:24:33,071 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:24:36,173 INFO  {main} AddNewCustomer---START
+2024-05-29 17:24:42,279 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:29:48,643 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:29:51,970 INFO  {main} CheckingUserSearchByPostCode---START
+2024-05-29 17:29:54,285 INFO  {main} CheckingUserSearchByPostCode---Success
+2024-05-29 17:29:54,440 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 17:29:54,440 INFO  {main} ----------------------------------------------
+2024-05-29 17:29:54,441 INFO  {main}  
+2024-05-29 17:29:54,441 INFO  {main} ----------------------------------------------
+2024-05-29 17:30:06,349 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:30:09,158 INFO  {main} AddNewCustomer---START
+2024-05-29 17:30:20,923 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:30:21,082 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 17:30:21,083 INFO  {main} ----------------------------------------------
+2024-05-29 17:30:21,083 INFO  {main}  
+2024-05-29 17:30:21,083 INFO  {main} ----------------------------------------------
+2024-05-29 17:31:12,365 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:31:15,604 INFO  {main} AddNewCustomer---START
+2024-05-29 17:31:18,633 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:31:18,792 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 17:31:18,792 INFO  {main} ----------------------------------------------
+2024-05-29 17:31:18,792 INFO  {main}  
+2024-05-29 17:31:18,793 INFO  {main} ----------------------------------------------
+2024-05-29 17:31:53,975 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:31:57,192 INFO  {main} AddNewCustomer---START
+2024-05-29 17:31:59,699 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:31:59,867 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 17:31:59,867 INFO  {main} ----------------------------------------------
+2024-05-29 17:31:59,867 INFO  {main}  
+2024-05-29 17:31:59,867 INFO  {main} ----------------------------------------------
+2024-05-29 17:51:37,545 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:51:38,263 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:51:41,574 INFO  {main} AddNewCustomer---START
+2024-05-29 17:51:42,107 INFO  {main} AddNewCustomer---START
+2024-05-29 17:51:44,057 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:51:44,263 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 17:51:44,263 INFO  {main} ----------------------------------------------
+2024-05-29 17:51:44,264 INFO  {main}  
+2024-05-29 17:51:44,264 INFO  {main} ----------------------------------------------
+2024-05-29 17:51:44,610 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:51:44,769 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 17:51:44,770 INFO  {main} ----------------------------------------------
+2024-05-29 17:51:44,770 INFO  {main}  
+2024-05-29 17:51:44,770 INFO  {main} ----------------------------------------------
+2024-05-29 17:52:02,088 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 17:52:05,572 INFO  {main} AddNewCustomer---START
+2024-05-29 17:52:08,047 INFO  {main} AddNewCustomer---Failure
+2024-05-29 17:52:08,167 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 17:52:08,168 INFO  {main} ----------------------------------------------
+2024-05-29 17:52:08,168 INFO  {main}  
+2024-05-29 17:52:08,168 INFO  {main} ----------------------------------------------
+2024-05-29 18:01:03,604 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:01:06,765 INFO  {main} AddNewCustomer---START
+2024-05-29 18:01:09,266 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:01:09,426 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:01:09,427 INFO  {main} ----------------------------------------------
+2024-05-29 18:01:09,427 INFO  {main}  
+2024-05-29 18:01:09,427 INFO  {main} ----------------------------------------------
+2024-05-29 18:01:40,862 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:01:43,732 INFO  {main} AddNewCustomer---START
+2024-05-29 18:01:46,722 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:01:46,862 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:01:46,862 INFO  {main} ----------------------------------------------
+2024-05-29 18:01:46,863 INFO  {main}  
+2024-05-29 18:01:46,863 INFO  {main} ----------------------------------------------
+2024-05-29 18:02:18,074 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:02:21,279 INFO  {main} AddNewCustomer---START
+2024-05-29 18:02:25,278 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:02:25,481 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:02:25,482 INFO  {main} ----------------------------------------------
+2024-05-29 18:02:25,482 INFO  {main}  
+2024-05-29 18:02:25,482 INFO  {main} ----------------------------------------------
+2024-05-29 18:02:44,066 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:02:47,095 INFO  {main} AddNewCustomer---START
+2024-05-29 18:02:49,612 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:02:49,787 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:02:49,787 INFO  {main} ----------------------------------------------
+2024-05-29 18:02:49,787 INFO  {main}  
+2024-05-29 18:02:49,788 INFO  {main} ----------------------------------------------
+2024-05-29 18:02:59,946 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:03:04,420 INFO  {main} AddNewCustomer---START
+2024-05-29 18:03:06,389 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:03:06,539 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:03:06,539 INFO  {main} ----------------------------------------------
+2024-05-29 18:03:06,540 INFO  {main}  
+2024-05-29 18:03:06,540 INFO  {main} ----------------------------------------------
+2024-05-29 18:03:12,517 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:03:15,826 INFO  {main} AddNewCustomer---START
+2024-05-29 18:04:12,073 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:04:38,957 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:04:38,958 INFO  {main} ----------------------------------------------
+2024-05-29 18:04:38,958 INFO  {main}  
+2024-05-29 18:04:38,959 INFO  {main} ----------------------------------------------
+2024-05-29 18:11:50,914 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:11:55,441 INFO  {main} AddNewCustomer---START
+2024-05-29 18:12:08,208 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:12:08,392 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:12:08,392 INFO  {main} ----------------------------------------------
+2024-05-29 18:12:08,392 INFO  {main}  
+2024-05-29 18:12:08,392 INFO  {main} ----------------------------------------------
+2024-05-29 18:13:05,337 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:13:08,520 INFO  {main} AddNewCustomer---START
+2024-05-29 18:13:19,972 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:13:20,061 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:13:20,061 INFO  {main} ----------------------------------------------
+2024-05-29 18:13:20,062 INFO  {main}  
+2024-05-29 18:13:20,062 INFO  {main} ----------------------------------------------
+2024-05-29 18:13:35,719 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:13:39,117 INFO  {main} AddNewCustomer---START
+2024-05-29 18:13:51,306 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:13:51,467 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:13:51,467 INFO  {main} ----------------------------------------------
+2024-05-29 18:13:51,467 INFO  {main}  
+2024-05-29 18:13:51,467 INFO  {main} ----------------------------------------------
+2024-05-29 18:14:35,861 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:14:42,549 INFO  {main} AddNewCustomer---START
+2024-05-29 18:14:47,093 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:14:47,238 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:14:47,239 INFO  {main} ----------------------------------------------
+2024-05-29 18:14:47,239 INFO  {main}  
+2024-05-29 18:14:47,239 INFO  {main} ----------------------------------------------
+2024-05-29 18:50:24,106 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:50:27,885 INFO  {main} AddNewCustomer---START
+2024-05-29 18:50:32,169 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:50:32,330 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:50:32,331 INFO  {main} ----------------------------------------------
+2024-05-29 18:50:32,331 INFO  {main}  
+2024-05-29 18:50:32,331 INFO  {main} ----------------------------------------------
+2024-05-29 18:51:26,337 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 18:51:30,010 INFO  {main} AddNewCustomer---START
+2024-05-29 18:51:33,756 INFO  {main} AddNewCustomer---Failure
+2024-05-29 18:51:33,932 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 18:51:33,932 INFO  {main} ----------------------------------------------
+2024-05-29 18:51:33,933 INFO  {main}  
+2024-05-29 18:51:33,933 INFO  {main} ----------------------------------------------
+2024-05-29 22:54:52,758 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 22:54:54,548 INFO  {main} AddNewCustomer---START
+2024-05-29 22:54:54,550 INFO  {main} AddNewCustomer---Skipped
+2024-05-29 22:54:54,696 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 22:54:54,696 INFO  {main} ----------------------------------------------
+2024-05-29 22:54:54,696 INFO  {main}  
+2024-05-29 22:54:54,696 INFO  {main} ----------------------------------------------
+2024-05-29 22:55:35,556 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 22:55:44,535 INFO  {main} AddNewCustomer---START
+2024-05-29 22:55:47,936 INFO  {main} AddNewCustomer---Failure
+2024-05-29 22:55:48,118 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 22:55:48,118 INFO  {main} ----------------------------------------------
+2024-05-29 22:55:48,118 INFO  {main}  
+2024-05-29 22:55:48,118 INFO  {main} ----------------------------------------------
+2024-05-29 23:00:16,391 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 23:00:20,037 INFO  {main} AddNewCustomer---START
+2024-05-29 23:00:23,805 INFO  {main} AddNewCustomer---Success
+2024-05-29 23:00:23,961 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 23:00:23,962 INFO  {main} ----------------------------------------------
+2024-05-29 23:00:23,962 INFO  {main}  
+2024-05-29 23:00:23,962 INFO  {main} ----------------------------------------------
+2024-05-29 23:01:26,719 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 23:01:29,910 INFO  {main} AddNewCustomer---START
+2024-05-29 23:01:33,702 INFO  {main} AddNewCustomer---Success
+2024-05-29 23:01:33,850 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 23:01:33,851 INFO  {main} ----------------------------------------------
+2024-05-29 23:01:33,851 INFO  {main}  
+2024-05-29 23:01:33,851 INFO  {main} ----------------------------------------------
+2024-05-29 23:01:41,489 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 23:01:45,181 INFO  {main} OpenNewForNewCustomerBankAccount---START
+2024-05-29 23:01:47,523 INFO  {main} OpenNewForNewCustomerBankAccount---Failure
+2024-05-29 23:01:47,665 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 23:01:47,666 INFO  {main} ----------------------------------------------
+2024-05-29 23:01:47,666 INFO  {main}  
+2024-05-29 23:01:47,666 INFO  {main} ----------------------------------------------
+2024-05-29 23:02:17,962 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 23:02:21,161 INFO  {main} OpenNewForNewCustomerBankAccount---START
+2024-05-29 23:02:23,509 INFO  {main} OpenNewForNewCustomerBankAccount---Failure
+2024-05-29 23:02:23,713 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 23:02:23,713 INFO  {main} ----------------------------------------------
+2024-05-29 23:02:23,714 INFO  {main}  
+2024-05-29 23:02:23,714 INFO  {main} ----------------------------------------------
+2024-05-29 23:02:32,951 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 23:02:36,001 INFO  {main} OpenNewForNewCustomerBankAccount---START
+2024-05-29 23:02:38,834 INFO  {main} OpenNewForNewCustomerBankAccount---Failure
+2024-05-29 23:02:39,001 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 23:02:39,002 INFO  {main} ----------------------------------------------
+2024-05-29 23:02:39,002 INFO  {main}  
+2024-05-29 23:02:39,002 INFO  {main} ----------------------------------------------
+2024-05-29 23:03:08,625 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 23:03:11,890 INFO  {main} OpenNewForNewCustomerBankAccount---START
+2024-05-29 23:03:14,228 INFO  {main} OpenNewForNewCustomerBankAccount---Failure
+2024-05-29 23:03:14,411 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 23:03:14,411 INFO  {main} ----------------------------------------------
+2024-05-29 23:03:14,411 INFO  {main}  
+2024-05-29 23:03:14,411 INFO  {main} ----------------------------------------------
+2024-05-29 23:03:23,798 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 23:03:28,139 INFO  {main} OpenNewForNewCustomerBankAccount---START
+2024-05-29 23:04:31,264 INFO  {main} 11-12lab-----START TESTS
+2024-05-29 23:04:34,282 INFO  {main} AddNewCustomer---START
+2024-05-29 23:04:37,114 INFO  {main} AddNewCustomer---Success
+2024-05-29 23:04:39,703 INFO  {main} CheckingUserSearchByPostCode---START
+2024-05-29 23:04:41,983 INFO  {main} CheckingUserSearchByPostCode---Success
+2024-05-29 23:04:44,772 INFO  {main} GetLessMoneyThanAllowedFromBankAccount---START
+2024-05-29 23:04:48,375 INFO  {main} GetLessMoneyThanAllowedFromBankAccount---Success
+2024-05-29 23:04:50,877 INFO  {main} GetMoreMoneyThanAllowedFromBankAccount---START
+2024-05-29 23:04:53,475 INFO  {main} GetMoreMoneyThanAllowedFromBankAccount---Success
+2024-05-29 23:04:55,860 INFO  {main} OpenNewBankAccount---START
+2024-05-29 23:04:59,925 INFO  {main} OpenNewBankAccount---Success
+2024-05-29 23:05:00,077 INFO  {main} 11-12lab-----FINISH TESTS
+2024-05-29 23:05:00,078 INFO  {main} ----------------------------------------------
+2024-05-29 23:05:00,078 INFO  {main}  
+2024-05-29 23:05:00,078 INFO  {main} ----------------------------------------------
